@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Serender.Test.Domain.Shared": {
+      "path": "src/Serender.Test.Domain.Shared/Serender.Test.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Serender.Test.Domain": {
+      "path": "src/Serender.Test.Domain/Serender.Test.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Serender.Test.Application.Contracts": {
+      "path": "src/Serender.Test.Application.Contracts/Serender.Test.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Serender.Test.Application": {
+      "path": "src/Serender.Test.Application/Serender.Test.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Serender.Test.EntityFrameworkCore": {
+      "path": "src/Serender.Test.EntityFrameworkCore/Serender.Test.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Serender.Test.MongoDB": {
+      "path": "src/Serender.Test.MongoDB/Serender.Test.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Serender.Test.HttpApi": {
+      "path": "src/Serender.Test.HttpApi/Serender.Test.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Serender.Test.HttpApi.Client": {
+      "path": "src/Serender.Test.HttpApi.Client/Serender.Test.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Serender.Test.TestBase": {
+      "path": "test/Serender.Test.TestBase/Serender.Test.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Serender.Test.EntityFrameworkCore.Tests": {
+      "path": "test/Serender.Test.EntityFrameworkCore.Tests/Serender.Test.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Serender.Test.MongoDB.Tests": {
+      "path": "test/Serender.Test.MongoDB.Tests/Serender.Test.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Serender.Test.Domain.Tests": {
+      "path": "test/Serender.Test.Domain.Tests/Serender.Test.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Serender.Test.Application.Tests": {
+      "path": "test/Serender.Test.Application.Tests/Serender.Test.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Serender.Test.HttpApi.Host": {
+      "path": "host/Serender.Test.HttpApi.Host/Serender.Test.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Serender.Test.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Serender.Test.HttpApi.Client.ConsoleTestApp/Serender.Test.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Serender.Test.AuthServer": {
+      "path": "host/Serender.Test.AuthServer/Serender.Test.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "Serender.Test.Host.Shared": {
+      "path": "host/Serender.Test.Host.Shared/Serender.Test.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Serender.Test": {
+      "path": "Serender.Test.abpmdl.json"
+    }
+  }
+}
