@@ -25,7 +25,7 @@ jobs:
 
       - name: Run Docker Container Locally
         run: |
-          docker run --name some-redis -d -p 6379:6379 redis
+          docker run --name some-redis -d -p 127.0.0.1:6379:6379 redis
 
       - name: Test Container
         run: |
