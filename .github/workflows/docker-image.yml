@@ -33,6 +33,4 @@ jobs:
           # Burada konteyneri test etmek için gereken komutları çalıştırabilirsiniz
           # Örneğin, cURL veya bir HTTP istemcisi kullanabilirsiniz
 
-      - name: Stop Docker Container
-        run: |
-          docker stop ${{ secrets.DOCKER_USERNAME }}/deneme || true
+    
