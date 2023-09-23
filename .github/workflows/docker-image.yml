@@ -25,11 +25,13 @@ jobs:
 
       - name: Run Docker Container Locally
         run: |
-          docker run --name some-redis -d -p 127.0.0.1:6379:6379 redis
+          docker run -d -p 4319:443 ${{ secrets.DOCKER_USERNAME }}/deneme
 
       - name: Test Container
         run: |
           # Burada konteyneri test etmek için gereken komutları çalıştırabilirsiniz
           # Örneğin, cURL veya bir HTTP istemcisi kullanabilirsiniz
+            # Aşağıdaki komut, belirli bir URL'ye bir GET isteği gönderir:
+          curl -I http://localhost:8080
 
      
