@@ -23,14 +23,10 @@ jobs:
       - name: Docker Push
         run: docker push ${{ secrets.DOCKER_USERNAME }}/deneme
 
-      # Eklenen kısım:
       - name: Run Docker Container Locally
-        run: docker run -d -p 8080:80 ${{ secrets.DOCKER_USERNAME }}/deneme
-        ports:
-          - 8080:80
-
-      - name: Wait for Container to Start
-        run: sleep 10  # Konteynerinizin başlamasını beklemek için süreyi ayarlayın
+        run: |
+          docker run -d -p 8080:80 ${{ secrets.DOCKER_USERNAME }}/deneme
+          sleep 10  # Konteynerinizin başlamasını beklemek için süreyi ayarlayın
 
       - name: Test Container
         run: |
@@ -38,4 +34,5 @@ jobs:
           # Örneğin, cURL veya bir HTTP istemcisi kullanabilirsiniz
 
       - name: Stop Docker Container
-        run: docker stop $(docker ps -q --filter ancestor=${{ secrets.DOCKER_USERNAME }}/deneme)
+        run: |
+          docker stop $(docker ps -q --filter ancestor=${{ secrets.DOCKER_USERNAME }}/deneme)
