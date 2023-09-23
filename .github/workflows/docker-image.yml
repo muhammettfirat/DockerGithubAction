@@ -35,4 +35,4 @@ jobs:
 
       - name: Stop Docker Container
         run: |
-          docker stop $(docker ps -q --filter ancestor=${{ secrets.DOCKER_USERNAME }}/deneme)
+          docker stop ${{ secrets.DOCKER_USERNAME }}/deneme || true
