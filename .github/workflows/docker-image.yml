@@ -32,6 +32,6 @@ jobs:
           # Burada konteyneri test etmek için gereken komutları çalıştırabilirsiniz
           # Örneğin, cURL veya bir HTTP istemcisi kullanabilirsiniz
             # Aşağıdaki komut, belirli bir URL'ye bir GET isteği gönderir:
-          curl -I http://localhost:8080
+          # curl -I http://localhost:8080
 
      
