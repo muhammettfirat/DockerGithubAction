@@ -25,8 +25,7 @@ jobs:
 
       - name: Run Docker Container Locally
         run: |
-          docker run --name consul -d -p 8500:8500 -p 8600-8600 consul
-          sleep 10  # Konteynerinizin başlamasını beklemek için süreyi ayarlayın
+          docker run --name some-redis -d -p 6379:6379 redis
 
       - name: Test Container
         run: |
